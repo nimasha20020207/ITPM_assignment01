@@ -232,7 +232,7 @@ const TEST_DATA = {
   ],
   
   ui: {
-    tcId: 'Neg_UI_0001',
+    id: 'Neg_UI_0001',
     name: 'sinhala traslation autofills when typing',
     input: 'eyaa sindhu kiyanavaa',
     partialInput: 'eyaa sindhu ki',
@@ -338,7 +338,7 @@ test.describe('SwiftTranslator-', () => {
 
   // UI Test
   test.describe('UI Functionality Tests', () => {
-    test(`${TEST_DATA.ui.tcId} - ${TEST_DATA.ui.name}`, async ({ page }) => {
+    test(`${TEST_DATA.ui.id} - ${TEST_DATA.ui.name}`, async ({ page }) => {
       const translator = new TranslatorPage(page);
       const input = await translator.getInputField();
       const output = await translator.getOutputField();
