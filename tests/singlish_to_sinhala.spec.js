@@ -419,14 +419,11 @@ const TEST_DATA = {
   ],
   
   ui: {
-    tcId: 'Pos_UI_001',
-    name: 'Real-time translation updates as typing',
-    input: 'mama kaeema kannavaa',
-    partialInput: 'mama kae',
-    expectedFull: 'මම කෑම කන්නවා',
-    category: 'Usability flow',
-    grammar: 'Present tense',
-    length: 'S'
+    tcId: 'Neg_UI_0001',
+    name: 'sinhala traslation autofills when typing',
+    input: 'eyaa sindhu kiyanavaa',
+    partialInput: 'eyaa sindhu ki',
+    expectedFull: 'එයා සින්දු කියනවා',
   }
 };
 
